@@ -1,8 +1,30 @@
-ol {
-  margin-left: -40px;
-  margin-top: -20px;
-  list-style-position: inside;
+/* Don't change the existing CSS. */
+
+.box {
+  background-color: blue;
+  padding: 10px;
+}
+.inner-box{
+  background-color: red;
 }
 
-/* Write your CSS below, don't change the rules above. *
+p {
+  color: yellow;
+  margin: 0;
+  padding: 0;
+}
+
+.white-text{
+  color:white
+}
+
+
+
+
+
+
+
+
+
+
 
