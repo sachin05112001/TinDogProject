@@ -1,69 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-  <meta charset="UTF-8">
-  <title>CSS Box Model</title>
+  <title>CSS Positioning Exercise</title>
   <style>
-    /* Write your CSS code here */
+    .red-circle{
+      width: 200px;
+      height: 200px;
+      background-color: red;
+      border-radius: 50%;
+      position: absolute;
+      top: 150px;
+      left: 250px;
+    }
+    
+    .blue-box {
+      background-color: blue;
+      width: 500px;
+      height: 300px;
+      position: relative;
+      top: 200px;
+      left: 200px;
+    }
 
+    
+    
   </style>
 </head>
 
 <body>
-  div{
-    height = 200px;
-    width = 200px;
+  <div class="blue-box">
+    <div class="red-circle">
 
-  }
-  p {
-    margin: 0;
-  }
-
-  #first {
-    background-color: cadetblue;
-    padding: 20px;
-    border: 10px solid black;
-  
-  #second{
-    background-color: gold;
-      border: solid black;
-      border-width: 20px 10px;
-      margin-left: 260px;
-    }
-
-    #third {
-      background-color: indianred;
-      border: 10px solid black;
-      margin-left: 40px;
-    }
-
-    <div id="first">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at sapien porttitor urna elementum lacinia. In
-        id magna pulvinar, ultricies lorem id, vehicula elit. Aliquam eu luctus nisl, vitae pellentesque magna. Phasellus
-        dolor metus, laoreet ac convallis sit amet, efficitur sed dolor. </p>
     </div>
-    <div id="second">
-  
-    </div>
-    <div id="third">
-  
-    </div>
-  </body>
-  
-  </html>
-
-
-  
--->
+  </div>
 
 </body>
 
 </html>
-
-
-
-
-
-
-
